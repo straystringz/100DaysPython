@@ -5,4 +5,4 @@
 
 I'll update this README later when I'm done with the project
 
-> Day 1 [Day 01](./Beginner/day01.py)
+- Day 1 [Day 01](./Beginner/day01.py)
