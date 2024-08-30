@@ -34,17 +34,39 @@
 
 # BMI calculator, class work
 
-def bmi(weight, height):
-    conv_height = float(height)
-    conv_weight = float(weight)
 
-    h2 = conv_height**2
-    return conv_weight/h2
+# def bmi(weight, height):
+#     conv_height = float(height)
+#     conv_weight = float(weight)
+
+#     h2 = conv_height**2
+#     return conv_weight/h2
 
 
-persons_weight = input("Please input your weight in kg: ")
-persons_height = input("Please input your height in meters: ")
+# persons_weight = input("Please input your weight in kg: ")
+# persons_height = input("Please input your height in meters: ")
 
-print(int(bmi(persons_weight, persons_height)))
+# calc_bmi = round(int(bmi(persons_weight, persons_height)))
+
+# under_weight = f"Your bmi is {calc_bmi} you're a little bit underweight"
+# normal_weight = f"Your bmi is {calc_bmi} your weight is okay"
+# over_weight = f"Your bmi is {calc_bmi} you're a little bit overweight"
+# obese = f"Your bmi is {calc_bmi} you need to visit the gym regularly"
+# c_obese = f"Your bmi is {calc_bmi} you need a doctor and a dietician"
+
+# if calc_bmi < 18.5:
+#     print(under_weight)
+
+# elif calc_bmi > 18.5 and calc_bmi < 25:
+#     print(normal_weight)
+
+# elif calc_bmi > 25 and calc_bmi < 30:
+#     print(over_weight)
+
+# elif calc_bmi > 30 and calc_bmi < 35:
+#     print(obese)
+
+# else:
+#     print(c_obese)
 
 # _________________________________________________________________________
