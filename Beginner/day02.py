@@ -5,8 +5,33 @@
 # Data Types
 # Mathematical Operations in Python
 # Number Manipulation and F Strings in Python
-# Tip Calculator
 
+# Finger test: Get the sum of each element in 2 digit num entry
+
+# def sepAdd(num):
+#     converted_num = str(num)
+#     first_digit = converted_num[0]
+#     second_digit = converted_num[1]
+
+#     return int(first_digit) + int(second_digit)
+
+
+# num = input("Enter a 2 digit number: ")
+# print(sepAdd(num))
+
+
+# Your life in weeks
+
+# age = int(input("What's your current age? \n"))
+# rem_age = (90-age)
+# months = round(rem_age * 12)
+# days = round(rem_age * 365)
+# weeks = round(rem_age * 52)
+
+# print(f"You have {days} days, {weeks} weeks and {months} months left")
+
+
+# Tip Calculator
 print("Welcome to the tip calculator!")
 totalBill = float(input("Please insert the total bill amount\n$ "))
 tip = int(input("Percentage tip do you want to give, 10, 12, or 15?\n% "))
