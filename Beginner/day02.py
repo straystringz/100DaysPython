@@ -20,6 +20,21 @@
 # print(sepAdd(num))
 
 
+# BMI calculator, class work
+
+# def bmi(weight, height):
+#     conv_height = float(height)
+#     conv_weight = float(weight)
+
+#     h2 = conv_height**2
+#     return conv_weight/h2
+
+# persons_weight = input("Please input your weight in kg: ")
+# persons_height = input("Please input your height in meters: ")
+
+# print(int(bmi(persons_weight, persons_height)))
+
+
 # Your life in weeks
 
 # age = int(input("What's your current age? \n"))
