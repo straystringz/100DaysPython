@@ -152,43 +152,88 @@
 # _________________________________________________________________________
 
 
-# Love Score
+# # Love Score
 
-print("Welcome to the Love Calculator")
+# print("Welcome to the Love Calculator")
 
-name_one = input("Please enter your love's name: \n")
-name_two = input("Please enter your name: \n")
+# name_one = input("Please enter your love's name: \n")
+# name_two = input("Please enter your name: \n")
 
-names = name_one.lower() + name_two.lower()
+# names = name_one.lower() + name_two.lower()
 
-t = names.count("t")
-r = names.count("r")
-u = names.count("u")
-e = names.count("e")
+# t = names.count("t")
+# r = names.count("r")
+# u = names.count("u")
+# e = names.count("e")
 
-l_ = names.count("l")
-o = names.count("o")
-v = names.count("v")
+# l_ = names.count("l")
+# o = names.count("o")
+# v = names.count("v")
 
-name_total_true = t+r+u+e
-name_total_love = l_+o+v+e
-name_total_true_love = t+r+u+e+l_+o+v+e
+# name_total_true = t+r+u+e
+# name_total_love = l_+o+v+e
+# name_total_true_love = t+r+u+e+l_+o+v+e
 
-love_score = int(str(name_total_true) + str(name_total_love))
+# love_score = int(str(name_total_true) + str(name_total_love))
 
-print(f"T occurs {t} times\nR occurs {r} times\n\
-U occurs {u} times\nE occurs {e} times\nTotal = {name_total_true}\n\n\
-L occurs {l_} times\n\
-O occurs {o} times\nV occurs {v} times\nE occurs {e} times\n\
-Total = {name_total_love}\n")
+# print(f"T occurs {t} times\nR occurs {r} times\n\
+# U occurs {u} times\nE occurs {e} times\nTotal = {name_total_true}\n\n\
+# L occurs {l_} times\n\
+# O occurs {o} times\nV occurs {v} times\nE occurs {e} times\n\
+# Total = {name_total_love}\n")
 
-if love_score < 10 or love_score > 90:
-    print(f"Your score is {love_score},\
-    \nYou go together like coke and mentos.")
+# if love_score < 10 or love_score > 90:
+#     print(f"Your score is {love_score},\
+#     \nYou go together like coke and mentos.")
 
-elif love_score >= 40 and love_score <= 50:
-    print(f"Your Love Score is {love_score},\
-    \nYou're alright together.")
+# elif love_score >= 40 and love_score <= 50:
+#     print(f"Your Love Score is {love_score},\
+#     \nYou're alright together.")
 
+# else:
+#     print(f"Your Love Score is {love_score}")
+
+
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Treasure Island.")
+print("Your mission is to find the treasure.")
+
+direction = input("Where would you go: Left or Right?\n")
+dirChoice = direction.lower()
+if dirChoice == "left" or dirChoice == "l":
+    print("You're in front of an ocean.\n")
+    swim_wait = input("Would you rather swim or wait for a boat?\n").lower()
+
+    if swim_wait == "wait" or swim_wait == "w":
+        door = input("Please choose a door\n").lower()
+        if door == "r" or door == "red":
+            print("uh-oh fire in the building\nGame Over!!!")
+        elif door == "yellow" or door == "y":
+            print("Congratulations, You've found the treasure. Yay!!")
+        else:
+            print("Eaten by beasts.\nGame over")
+    else:
+        print("You've been attacked by a trout\nGame Over!!!")
 else:
-    print(f"Your Love Score is {love_score}")
+    print("Oops you fell into a hole\nGame Over!!!")
