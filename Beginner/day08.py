@@ -90,7 +90,7 @@ alphabet = [
 ]
 
 
-# TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
+# TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs. # noqa
 
 
 # def encrypt(plain_text, shift):
